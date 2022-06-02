@@ -24,6 +24,9 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: '100',
     lineHeight: '28px',
   },
+  test: {
+    border: '1px solid red',
+  },
 }));
 
 export default function Map() {
@@ -36,6 +39,11 @@ export default function Map() {
       </Grid>
       <Grid item xs={12}>
         <div className={classes.networkSubtitle}>
+          Download the latest tools to participate in the Theta Network.
+        </div>
+      </Grid>
+      <Grid item xs={12}>
+        <div className={classes.test}>
           Download the latest tools to participate in the Theta Network.
         </div>
       </Grid>

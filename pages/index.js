@@ -35,14 +35,14 @@ export default function Home() {
   return (
     <Container>
       <div className={classes.homebackground}></div>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <More />
       <Press />
       <Partners />
-      <Map />
-      <Network />
-      <Title title="Live Network Stats" />
+      <Map /> */}
+      {/* <Network /> */}
+      <Title title="Enterprise Validator Nodes" />
     </Container>
   );
 }
